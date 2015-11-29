@@ -10,11 +10,7 @@ brew update
 ### Install Homebrew Packages
 ```
 brew install zsh
-
-```
-
-## Install Homebrew Cask
-```
+brew install zsh-syntax-highlighting
 brew install caskroom/cask/brew-cask
 ```
 
