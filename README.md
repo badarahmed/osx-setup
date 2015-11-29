@@ -46,3 +46,10 @@ open Tomorrow%20Night%20Eighties.itermcolors
 
 # iTerm > Preferences > Profiles > Default > Colors > Load Presets
 ```
+
+## Install ohmyzsh
+```
+sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+```
+
+It will save previous `.zshrc` config to `.zshrc.pre-oh-my-zsh`. Add the pre-config to the new `.zshrc`
