@@ -37,3 +37,6 @@ nvm install v4.2.2
 ```
 
 ## Install pure zsh prompt
+```
+npm install --global pure-prompt
+```
