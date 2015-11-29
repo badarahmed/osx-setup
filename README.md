@@ -18,4 +18,5 @@ brew cask install iterm2
 brew cask install google-chrome
 brew cask install caffeine
 brew cask install flux
+brew cask install macpass
 ```
