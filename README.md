@@ -53,3 +53,9 @@ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/i
 ```
 
 It will save previous `.zshrc` config to `.zshrc.pre-oh-my-zsh`. Add the pre-config to the new `.zshrc`
+
+## Setup Git
+```
+git config --global user.name "Your Name"
+git config --global user.email you@example.com
+```
