@@ -11,3 +11,11 @@ brew update
 ```
 brew install caskroom/cask/brew-cask
 ```
+
+### Install Cask Packages
+```
+brew cask install iterm2
+brew cask install google-chrome
+brew cask install caffeine
+brew cask install flux
+```
