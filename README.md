@@ -59,3 +59,12 @@ It will save previous `.zshrc` config to `.zshrc.pre-oh-my-zsh`. Add the pre-con
 git config --global user.name "Your Name"
 git config --global user.email you@example.com
 ```
+
+## Setup scmpuff
+```
+brew install scmpuff
+
+# Add to .zshrc
+eval "$(scmpuff init -s)"
+```
+
