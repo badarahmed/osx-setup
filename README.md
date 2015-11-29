@@ -10,6 +10,7 @@ brew update
 ### Install Homebrew Packages
 ```
 brew install zsh
+
 ```
 
 ## Install Homebrew Cask
@@ -24,6 +25,7 @@ brew cask install google-chrome
 brew cask install caffeine
 brew cask install flux
 brew cask install macpass
+brew cask install spectacle
 ```
 
 ## Install nvm
