@@ -38,3 +38,11 @@ nvm install v4.2.2
 ```
 npm install --global pure-prompt
 ```
+
+## Install iTerm2 Theme
+```
+curl -O https://raw.githubusercontent.com/chriskempson/tomorrow-theme/master/iTerm2/Tomorrow%20Night%20Eighties.itermcolors
+open Tomorrow%20Night%20Eighties.itermcolors
+
+# iTerm > Preferences > Profiles > Default > Colors > Load Presets
+```
