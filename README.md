@@ -68,3 +68,10 @@ git clone git://github.com/ndbroadbent/scm_breeze.git ~/.scm_breeze
 ~/.scm_breeze/install.sh
 ```
 
+# Resources
+- https://github.com/mathiasbynens/dotfiles
+- https://github.com/robbyrussell/oh-my-zsh
+- https://github.com/sindresorhus/pure
+- https://github.com/chriskempson/tomorrow-theme
+- https://github.com/tony/tmux-config
+- http://meltuhamy.com/tech/dev/setting-up-my-dev-environment-on-a-new-mac/
