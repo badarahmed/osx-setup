@@ -62,11 +62,9 @@ git config --global user.name "Your Name"
 git config --global user.email you@example.com
 ```
 
-## Setup scmpuff
+## Setup scm_breeze
 ```
-brew install scmpuff
-
-# Add to .zshrc
-eval "$(scmpuff init -s)"
+git clone git://github.com/ndbroadbent/scm_breeze.git ~/.scm_breeze
+~/.scm_breeze/install.sh
 ```
 
