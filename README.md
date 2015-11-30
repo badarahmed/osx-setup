@@ -12,6 +12,8 @@ brew update
 brew install zsh
 brew install zsh-syntax-highlighting
 brew install caskroom/cask/brew-cask
+brew install jq
+brew install tmux
 ```
 
 ### Install Cask Packages
