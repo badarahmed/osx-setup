@@ -24,6 +24,7 @@ brew cask install caffeine
 brew cask install flux
 brew cask install macpass
 brew cask install spectacle
+brew cask install noizio
 ```
 
 ## Install nvm
