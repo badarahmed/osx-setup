@@ -69,6 +69,15 @@ git clone git://github.com/ndbroadbent/scm_breeze.git ~/.scm_breeze
 ~/.scm_breeze/install.sh
 ```
 
+## Setup Epson XP-410
+Driver download page: 
+http://www.epson.com/cgi-bin/Store/support/supDetail.jsp?oid=224802&infoType=Downloads&platform=OSF_M_X11
+
+All-in-one Driver:
+https://ftp.epson.com/drivers/epson15207.dmg
+
+To install scanner driver, goto Finder -> XP-410 (mounted) -> Common -> EPSON Scan -> EPSON Scan.pkg
+
 # Resources
 - https://github.com/mathiasbynens/dotfiles
 - https://github.com/robbyrussell/oh-my-zsh
