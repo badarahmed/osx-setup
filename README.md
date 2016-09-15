@@ -43,6 +43,13 @@ nvm install v4.2.2
 npm install --global pure-prompt
 ```
 
+## Initialize pure prompt
+```
+# Add to .zshrc
+autoload -U promptinit; promptinit
+prompt pure
+```
+
 ## Install iTerm2 Theme
 ```
 curl -O https://raw.githubusercontent.com/chriskempson/tomorrow-theme/master/iTerm2/Tomorrow%20Night%20Eighties.itermcolors
