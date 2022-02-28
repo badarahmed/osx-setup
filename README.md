@@ -7,10 +7,17 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 
 ### Install Homebrew Packages
 ```
-brew install gh
+brew install gh # GitHub CLI
+brew install starship #Shell Prompt
 brew install zsh-syntax-highlighting
 brew install jq
 brew install tmux
+```
+
+## Setup Starship Prompt
+Add the following to the end of ~/.zshrc:
+```
+eval "$(starship init zsh)"
 ```
 
 ### Install Cask Packages
