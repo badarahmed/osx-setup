@@ -7,6 +7,7 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 
 ### Install Homebrew Packages
 ```
+brew install gh
 brew install zsh-syntax-highlighting
 brew install jq
 brew install tmux
