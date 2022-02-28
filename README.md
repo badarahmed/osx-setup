@@ -14,14 +14,11 @@ brew install tmux
 
 ### Install Cask Packages
 ```
-brew cask install iterm2
-brew cask install google-chrome
-brew cask install caffeine
-brew cask install flux
-brew cask install macpass
-brew cask install spectacle
-brew cask install noizio
-brew cask install slack
+brew install --cask iterm2
+brew install --cask caffeine
+brew install --cask macpass
+brew install --cask rectangle
+brew install --cask visual-studio-code
 ```
 
 ## Install nvm
