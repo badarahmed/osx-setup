@@ -9,6 +9,7 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 ```
 brew install gh # GitHub CLI
 brew install starship #Shell Prompt
+brew install exa # ls replacement
 brew install zsh-syntax-highlighting
 brew install jq
 brew install tmux
