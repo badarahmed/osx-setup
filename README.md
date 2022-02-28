@@ -21,28 +21,6 @@ brew install --cask rectangle
 brew install --cask visual-studio-code
 ```
 
-## Install nvm
-```
-curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.29.0/install.sh | sh
-```
-
-## Install Node.js v4 LTS
-```
-nvm install v4.2.2
-```
-
-## Install pure zsh prompt
-```
-npm install --global pure-prompt
-```
-
-## Initialize pure prompt
-```
-# Add to .zshrc
-autoload -U promptinit; promptinit
-prompt pure
-```
-
 ## Install iTerm2 Theme
 ```
 curl -O https://raw.githubusercontent.com/chriskempson/tomorrow-theme/master/iTerm2/Tomorrow%20Night%20Eighties.itermcolors
