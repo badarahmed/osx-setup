@@ -3,50 +3,31 @@
 ## Install Homebrew
 ```
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-brew doctor
-brew update
 ```
 
 ### Install Homebrew Packages
 ```
-brew install zsh
+brew install gh # GitHub CLI
+brew install starship #Shell Prompt
+brew install exa # ls replacement
 brew install zsh-syntax-highlighting
 brew install jq
 brew install tmux
 ```
 
+## Setup Starship Prompt
+Add the following to the end of ~/.zshrc:
+```
+eval "$(starship init zsh)"
+```
+
 ### Install Cask Packages
 ```
-brew cask install iterm2
-brew cask install google-chrome
-brew cask install caffeine
-brew cask install flux
-brew cask install macpass
-brew cask install spectacle
-brew cask install noizio
-brew cask install slack
-```
-
-## Install nvm
-```
-curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.29.0/install.sh | sh
-```
-
-## Install Node.js v4 LTS
-```
-nvm install v4.2.2
-```
-
-## Install pure zsh prompt
-```
-npm install --global pure-prompt
-```
-
-## Initialize pure prompt
-```
-# Add to .zshrc
-autoload -U promptinit; promptinit
-prompt pure
+brew install --cask iterm2
+brew install --cask caffeine
+brew install --cask macpass
+brew install --cask rectangle
+brew install --cask visual-studio-code
 ```
 
 ## Install iTerm2 Theme
@@ -75,15 +56,6 @@ git config --global user.email you@example.com
 git clone git://github.com/ndbroadbent/scm_breeze.git ~/.scm_breeze
 ~/.scm_breeze/install.sh
 ```
-
-## Setup Epson XP-410
-Driver download page: 
-http://www.epson.com/cgi-bin/Store/support/supDetail.jsp?oid=224802&infoType=Downloads&platform=OSF_M_X11
-
-All-in-one Driver:
-https://ftp.epson.com/drivers/epson15207.dmg
-
-To install scanner driver, goto Finder -> XP-410 (mounted) -> Common -> EPSON Scan -> EPSON Scan.pkg
 
 # Resources
 - https://github.com/mathiasbynens/dotfiles
