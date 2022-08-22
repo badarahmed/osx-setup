@@ -30,6 +30,19 @@ brew install --cask rectangle
 brew install --cask visual-studio-code
 ```
 
+## Setup Git
+```
+git config --global user.name "Your Name"
+git config --global user.email you@example.com
+```
+
+## Setup scm_breeze (Useful Git aliases)
+```
+git clone git://github.com/ndbroadbent/scm_breeze.git ~/.scm_breeze
+~/.scm_breeze/install.sh
+```
+
+# Archived
 ## Install iTerm2 Theme
 ```
 curl -O https://raw.githubusercontent.com/chriskempson/tomorrow-theme/master/iTerm2/Tomorrow%20Night%20Eighties.itermcolors
@@ -44,18 +57,6 @@ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/i
 ```
 
 It will save previous `.zshrc` config to `.zshrc.pre-oh-my-zsh`. Add the pre-config to the new `.zshrc`
-
-## Setup Git
-```
-git config --global user.name "Your Name"
-git config --global user.email you@example.com
-```
-
-## Setup scm_breeze
-```
-git clone git://github.com/ndbroadbent/scm_breeze.git ~/.scm_breeze
-~/.scm_breeze/install.sh
-```
 
 # Resources
 - https://github.com/mathiasbynens/dotfiles
